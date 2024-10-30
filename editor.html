@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Editor</title>
+    <link rel="icon" href="blog-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <header>
+        <div class="nav container">   
+        <a href="#" class="logo">Blog<span>Sphere</span></a>
+        <a href="index.html" class="back-btn">Back</a>
+    </div>
+    </header>
+
+    <section>
+        <h1 class="editor-heading">WRITE YOUR BLOG</h1>
+    </section>
+
+    <section class="editor">
+        <form id="blogForm">
+            <input type="text" placeholder="Blog Title" name="title" required>
+            <input type="text" placeholder="Blog Catagory" name="catagory" required>
+            <input type="text" id="author" placeholder="Author Name" required>
+            <input type="time" id="publishTime" placeholder="Time" required>
+            <input type="date" id="publishDate" placeholder="Publish date" required>
+            <input type="text" id="tags" placeholder="Enter tags separated by commas">
+            <textarea placeholder="Write your blog here..." name="content" required></textarea>
+            <input type="file" name="image" accept="image/*">
+            <button type="submit">Publish</button>
+        </form>
+    </section>
+
+    <div class="footer container">
+        <img src="blog-icon.png">
+         <h3>Blog<span>Sphere</span></h3>
+         <div class="social-links">
+             <a href="#"><i class='bx bxl-gmail'></i></a>
+             <a href="#"><i class='bx bxl-facebook'></i></a>
+             <a href="#"><i class='bx bxl-instagram'></i></a>
+             <a href="#"><i class='bx bxl-twitter'></i></a>
+             <a href="#"><i class='bx bxl-linkedin'></i></a>
+         </div>
+     </div> 
+
+    <script src="./Js Files/editor.js"></script>
+    
+</body>
+</html>

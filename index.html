@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSphere</title>
+     <link rel="icon" href="blog-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  
+    <header>
+        <div class="nav container">
+        <a href="#" class="logo">Blog<span>Sphere</span></a>
+        <a href="editor.html" class="editor-btn">WRITE A BLOG</a>
+    </div>
+    </header>
+
+    <section class="home" is="home">
+        <div class="home-text container">
+            <h2 class="title">The Blog World</h2>
+            <span class="sub-title">Where ideas take flight.</span>
+        </div>
+    </section>
+
+    <div class="post-filter container">
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="Startups">Startup</span>
+      <span class="filter-item" data-filter="Security">Security</span>
+      <span class="filter-item" data-filter="AI">AI</span>
+      <span class="filter-item" data-filter="Apps">Apps</span>
+      <span class="filter-item" data-filter="Fintech">Tech</span>
+      <span class="filter-item" data-filter="Work">Work</span>
+    </div>
+
+    <section class="posts container" id="blog-posts">
+        
+    </section>
+
+    <div class="footer container">
+       <img src="blog-icon.png">
+        <h3>Blog<span>Sphere</span></h3>
+        <div class="social-links">
+            <a href="#"><i class='bx bxl-gmail'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+
+    <!-- JQuery Link-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- Js Links -->
+    <script src="./Js Files/blogData.js"></script>
+    <script src="./Js Files/index.js"></script>
+    
+</body>
+</html>
